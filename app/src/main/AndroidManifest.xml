@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.haqisaurus.highqualitytwit"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <!-- penggunaan minimum android OS -->
+
+
+    <!-- daftar perijinan akses device -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- definisi aplikasi dan activity -->
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/title_activity_spalsh_screen" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Dashboard"
+            android:label="@string/title_activity_dashboard" >
+        </activity>
+        <activity
+            android:name=".RecentUpdate"
+            android:label="@string/title_activity_recent_update" >
+        </activity>
+        <activity
+            android:name=".Mentions"
+            android:label="@string/title_activity_mentions" >
+        </activity>
+        <activity
+            android:name=".DirectMessage"
+            android:label="@string/title_activity_direct_message" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">High Quality twit</string>
+    <string name="title_activity_spalsh_screen">SpalshScreen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_dashboard">Dashboard</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_recent_update">RecentUpdate</string>
+    <string name="title_activity_mentions">Mentions</string>
+    <string name="title_activity_direct_message">DirectMessage</string>
+
+</resources>
